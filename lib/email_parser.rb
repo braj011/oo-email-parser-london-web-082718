@@ -8,8 +8,12 @@ class EmailParser
   attr_reader :emails 
   
   def initialize(emails)
-    @emails 
+    @emails = emails 
   end   
+  
+  def parse
+    emails.
+  end 
   
   
 end 
